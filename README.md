@@ -225,36 +225,42 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
 
-#ALL THESE NEXT THINGS ARE IMPORTING LIBS/THINGS FROM LIBS
+#josh and computer
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
 
 import time
 import board
-import pwmio
-from adafruit_motor import servo
-from digitalio import DigitalInOut, Direction, Pull
+import adafruit_hcsr04
+import neopixel
 
-# tell my thing what is going where.
-btn = DigitalInOut(board.D3)# wire in pin 3
-btn.direction = Direction.INPUT # tell computer that an output is attached at pin 5
-btn.pull = Pull.DOWN # round down whatever value we get
-btn2 = DigitalInOut(board.D4)
-btn2.direction = Direction.INPUT
-btn2.pull = Pull.DOWN
-pwm = pwmio.PWMOut(board.D7, duty_cycle=2 ** 15, frequency=50)# tells coputer a pwm pin is attached at seve
-my_servo = servo.Servo(pwm)
-angle= 90 # assigning a value the word servo
+NUMPIXELS = 1  # Update this to match the number of LEDs.
+SPEED = 0.05  # Increase to slow down the rainbow. Decrease to speed it up.
+BRIGHTNESS = 1.0  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
 
 while True:
-    if btn.value: # if button is pressed
-        print(angle)# for debugging
-        if angle < 180:
-            angle = angle +5 # continuously add five degrees everytime i press the button.
-            my_servo.angle =angle # make the servo go to that angle
-            time.sleep(0.02)
-    
-    if btn2.value:# if button is pressed 
-        print(angle)# tell serial monitor what the angle is set to
-        if angle > 0:# so angle doesnt go out of range
-            angle = angle -5 # subtract 5 from angle every time i press button
-            my_servo.angle = angle # tell servo to go to thaty angle.
-            time.sleep(0.02)
+    try:
+        print((sonar.distance,))
+        if sonar.distance < 5:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = (255, 0,0)
+                pixels.show()
+        if sonar.distance > 5 and sonar.distance < 20:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = (255-(sonar.distance - 5 / 15 * 255), 0, (sonar.distance - 5 / 15 * 255))
+                pixels.show()
+             
+        if sonar.distance > 20 and sonar.distance < 35:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = ( 0, (sonar.distance - 5 / 15 * 255), 255-(sonar.distance - 5 / 15 * 255))
+                pixels.show()
+        if sonar.distance > 35:
+            for pixel in range(len(pixels)):  # pylint: disable=consider-using-enumerate
+                pixels[pixel] = ( 0, 255, 0)
+                pixels.show()   
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)  
