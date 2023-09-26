@@ -34,7 +34,9 @@ while True:
 
 
 ### Wiring
-![WIN_20230926_15_31_36_Pro](https://github.com/lavishlaiii3/engineering-3/assets/143545115/d15207f5-de3f-45d2-a348-f8f93b8f30ea)
+
+
+![WIN_20230926_15_31_36_Pro](https://github.com/lavishlaiii3/engineering-3/assets/143545115/35f29aea-3d34-4458-bfe0-478893cd179f)
 
 ### Reflection
 This assignment on Canvas was pretty self-explanatory. I just forgot how to wire my Potentiometer. To solve this problem I looked at my old notebook from last year. For wiring, I also got confused with multiple wires having to go to the same pin so I created multiply 5v and gnd.
