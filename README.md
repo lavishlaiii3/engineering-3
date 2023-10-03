@@ -107,3 +107,25 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
+
+
+## Onshape_Assignment_Template
+
+### Assignment Description
+
+The goal for this assignment was to create a hanger using certain measurements to get the correct mass. 
+### Evidence
+
+![Capture](https://github.com/lavishlaiii3/engineering-3/assets/143545115/06007277-fcdc-4f5c-a720-529b57472872)
+![eng](https://github.com/lavishlaiii3/engineering-3/assets/143545115/cbd8bc42-c669-4373-841d-e65cf035c37c)
+
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/b1d132e7e0424f9d639298aa/w/2d240396e6e3b38146958e59/e/0d087c803922b2328f0815bf?renderMode=0&uiState=651c60a2d82c8215c1b3e5da
+
+### Reflection
+
+Something that went well was the understanding of the measurement and me and with Korine's collaboration. Also remebering little shortcuts from last year. Something that went bad was mirroring because when it was to mirror My plan wouldn't show so mr. miller showed me how to make a plane.
+&nbsp;
+
+ 
