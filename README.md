@@ -158,15 +158,15 @@ while True:
 
 **Lastly, please end this section with a link to your code or file.**  
 
-### Evidence
+### Evidence 
+![unnamedv](https://github.com/lavishlaiii3/engineering-3/assets/143545115/977d09db-040d-4428-86ac-0e88c39d501f)
 
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![image](https://github.com/lavishlaiii3/engineering-3/assets/143545115/118dc44d-6f85-4659-829e-2050213049c6)
+
 ### Reflection
-This wiring wasn't bad because I use my old notebook from last year
+This wiring wasn't bad because I used my old notebook from last year. It helped me get to know how to work the coding thing more since I got the wiring done in a good timely matter. I did run into some diffcuilts with my code that I didn't understand but my peers helped me.
 
 
 ## Onshape_Assignment_Template
