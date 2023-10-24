@@ -11,12 +11,12 @@ This repository will actually serve as an aid to help you get started with your 
 ## Motor control
 
 ### Description & Code Snippets
-As I moved my pontientiometer it increases the speed of the motor. 
+As I moved my potentiometer it increased the speed of the motor. 
 
  
 ```python
 import board
-import analogio
+import analog
 
 motor=analogio.AnalogOut(board.A0)
 pot=analogio.AnalogIn(board.A1)
@@ -43,43 +43,61 @@ This assignment on Canvas was pretty self-explanatory. I just forgot how to wire
 
 
 
-## Hello_CircuitPython
+## CircuitPython Servo
 
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
+The goal was to wire a 180 servo and get it to rotate back and forth between 0 and 180 degrees by using a button using 2 different buttons. To accomplish we used the 3 wires for ground, power, and signal. 
 
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
 
 ```python
-Code goes here
+# SPDX-FileCopyrightText: 2018 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+"""CircuitPython Essentials Capacitive Touch on two pins example. Does not work on Trinket M0!"""
+import time
+import board
+import touchio
+import pwmio
+from adafruit_motor import servo
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo = servo.ContinuousServo(pwm)
+
+touch_A4 = touchio.TouchIn(board.A4)  # Not a touch pin on Trinket M0!
+touch_A5 = touchio.TouchIn(board.A5)  # Not a touch pin on Trinket M0!
+
+while True:
+    my_servo.throttle = 0.0
+    while touch_A4.value:
+        my_servo.throttle = 1.0
+        time.sleep(.5)
+    while touch_A5.value:
+        my_servo.throttle = -1.0
+        time.sleep(.5)
 
 ```
 
-**Lastly, please end this section with a link to your code or file.**  
+
 
 ### Evidence
-Pictures / Gifs of your finished work should go here.  You need to communicate what your thing does.
-For making a GIF, I recommend [ezgif.com](https://www.ezgif.com) Remember you can insert pictures using Markdown or HTML to insert an image.
-
-![spinningMetro_Optimized](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
 
 
-And here is how you should give image credit to someone if you use their work:
+https://github.com/lavishlaiii3/engineering-3/assets/143545115/8e7118c7-7450-4285-a2f4-745ef5a488a4
 
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
+
 
 
 
 ### Wiring
-Make an account with your Google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+![image](https://github.com/lavishlaiii3/engineering-3/assets/143545115/5506b60b-1c62-4211-8107-9bf3487e7f09)
+
 
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
-
+This wasn't too challenging it was a review from last year. What was challenging was coding since using a new app so I looked online and got help from my peers. 
 
 ## NextAssignment
 
@@ -125,7 +143,7 @@ https://cvilleschools.onshape.com/documents/b1d132e7e0424f9d639298aa/w/2d240396e
 
 ### Reflection
 
-Something that went well was the understanding of the measurement and me and with Korine's collaboration. Also remebering little shortcuts from last year. Something that went bad was mirroring because when it was to mirror My plan wouldn't show so mr. miller showed me how to make a plane.
+Something that went well was the understanding of the measurement and me and Korine's collaboration. Also remebering little shortcuts from last year. Something that went bad was mirroring because when it was to mirror My plan wouldn't show so mr. miller showed me how to make a plane.
 &nbsp;
 
  
