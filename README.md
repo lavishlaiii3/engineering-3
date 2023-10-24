@@ -99,18 +99,60 @@ https://github.com/lavishlaiii3/engineering-3/assets/143545115/8e7118c7-7450-428
 ### Reflection
 This wasn't too challenging it was a review from last year. What was challenging was coding since using a new app so I looked online and got help from my peers. 
 
-## NextAssignment
-
+## distance sensor
 ### Description & Code Snippets
-Write a couple sentences here, describing this assignment, and make sure that you hit these two points:
-* What was the goal of the assignment?
-* How did you accomplish that goal?
-  How you accomplished the goal is NOT a reflection, it is you telling the reader how to do this assignment, in broad strokes.
-
-  Your description is the right place to draw the reader's attention to any important chunks of code. Here's how you make code look like code:
-
+The goal of this assignment was to  shift the color of a neopixel based on the distance from an ultrasonic sensor.
+ 
 ```python
-Code goes here
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
+
+import time
+import board
+import adafruit_hcsr04
+import neopixel
+import simpleio
+
+NUMPIXELS = 1  # Update this to match the number of LEDs.
+SPEED = 0.1  # Increase to slow down the rainbow. Decrease to speed it up.
+BRIGHTNESS = 0.2  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL  # This is the default pin on the 5x5 NeoPixel Grid BFF.
+
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+
+while True:
+    try:
+        print((sonar.distance))
+        time.sleep(0.1)
+        if (sonar.distance < 5):
+            pixels.fill(RED)
+            pixels.show()
+            time.sleep(0.1)
+        elif (5 < sonar.distance < 20):
+            x = simpleio.map_range((sonar.distance),5,20,0,255)
+            pixels.fill((255-x, 0, x))
+            pixels.show()
+            time.sleep(0.1)
+        elif (sonar.distance == 20):
+            pixels.fill(BLUE)
+            pixels.show()
+            time.sleep(0.1)
+        elif (20 < sonar.distance < 35):
+            x = simpleio.map_range((sonar.distance),20,35,0,255)
+            pixels.fill((0, x, 255-x))
+            pixels.show()
+            time.sleep(0.1)
+        elif (sonar.distance > 35):
+            pixels.fill(GREEN)
+            pixels.show()
+            time.sleep(0.1)
+    except RuntimeError:
+        print("Retrying!")
+
 
 ```
 
@@ -118,13 +160,13 @@ Code goes here
 
 ### Evidence
 
+
 ### Wiring
 [tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
 Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
-
+This wiring wasn't bad because I use my old notebook from last year
 
 
 ## Onshape_Assignment_Template
