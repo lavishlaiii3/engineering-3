@@ -169,7 +169,7 @@ while True:
 This wiring wasn't bad because I used my old notebook from last year. It helped me get to know how to work the coding thing more since I got the wiring done in a good timely matter. I did run into some diffcuilts with my code that I didn't understand but my peers helped me.
 
 
-## Onshape_Assignment_hanger
+## Onshape hanger
 
 ### Assignment Description
 
@@ -189,3 +189,19 @@ Something that went well was the understanding of the measurement and me and Kor
 &nbsp;
 
  
+## Onshape swing arm
+
+### Assignment Description
+
+### Evidence
+
+![swing](https://github.com/lavishlaiii3/engineering-3/assets/143545115/b456129c-fed3-4a16-83f4-40b944983c5e)
+![swing3](https://github.com/lavishlaiii3/engineering-3/assets/143545115/4ec02fd9-569e-4639-be5a-f2770a80d3a3)
+
+![swing2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/abc7f67a-4021-4727-912e-1adfb92d64e3)
+
+### Part Link 
+
+### Reflection
+
+
