@@ -192,7 +192,7 @@ Something that went well was the understanding of the measurement and me and Kor
 ## Onshape swing arm
 
 ### Assignment Description
-
+For this assignment we were getting comofortable using dimesons and using the last 4 slides to help create the part. Mostly it was to get ready to earn your  Certified Onshape Associate certification.
 ### Evidence
 
 ![swing](https://github.com/lavishlaiii3/engineering-3/assets/143545115/b456129c-fed3-4a16-83f4-40b944983c5e)
@@ -201,7 +201,7 @@ Something that went well was the understanding of the measurement and me and Kor
 ![swing2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/abc7f67a-4021-4727-912e-1adfb92d64e3)
 
 ### Part Link 
-
+https://cvilleschools.onshape.com/documents/dda6d6d0e8e82c1ed3f6dfcc/w/8f824fb39a93bdf344b566c0/e/04694da48d226dd21f72e0cf?renderMode=0&uiState=653959c3155aa40d03e3be7d
 ### Reflection
 
-
+This assignment was difficult because I didn't know where to start. But getting help from Mr. miller ended up doing each section separately and actually using the instructions. This made me feel more confident in onshape because it was something out of a comfort zone. 
