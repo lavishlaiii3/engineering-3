@@ -169,7 +169,7 @@ while True:
 This wiring wasn't bad because I used my old notebook from last year. It helped me get to know how to work the coding thing more since I got the wiring done in a good timely matter. I did run into some diffcuilts with my code that I didn't understand but my peers helped me.
 
 
-## Onshape_Assignment_Template
+## Onshape_Assignment_hanger
 
 ### Assignment Description
 
