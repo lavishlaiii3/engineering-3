@@ -212,9 +212,15 @@ This assignment was difficult because I didn't know where to start. But getting 
 ## Multipart Design Practice
 
 ### Assignment Description
+
+For this assignment, we had to use  drawings to help us create a multi-part cylinder with variables for different configurations. At the end of the assignment, we had to take a quiz about the mass.
+
+
 ### Evidence
 ![Capture](https://github.com/lavishlaiii3/engineering-3/assets/143545115/8b9976f7-21c0-40ce-b2f6-0d393ae655b1)
 ![Capture2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/6b0b9187-550f-4aac-8127-474c49f6fc7f)
+
+![Capture3](https://github.com/lavishlaiii3/engineering-3/assets/143545115/c8de1011-0c51-4065-8ae1-1f9f5f70e77a)
 
 
 ### Part Link 
@@ -222,5 +228,5 @@ https://cvilleschools.onshape.com/documents/1758d87f13dd7ef54ab7d170/w/298679183
 
 
 ### Reflection
-
+This assignment wasn't that bad I struggled a lot with adding the tube in between the cylinders but Mr. Miller helped and showed me how to use section view. Making the top and bottom cap was pretty simple the directions were clear and I'm familiar with the tools we needed to make the cap. It also gave me a insight into how the engineering test is going to be. 
 
