@@ -192,7 +192,7 @@ Something that went well was the understanding of the measurement and me and Kor
 ## Onshape swing arm
 
 ### Assignment Description
-For this assignment we were getting comofortable using dimesons and using the last 4 slides to help create the part. Mostly it was to get ready to earn your  Certified Onshape Associate certification.
+For this assignment, we were getting comfortable using dimesons and using the last 4 slides to help create the part. Mostly it was to get ready to earn your  Certified Onshape Associate certification.
 ### Evidence
 
 ![swing](https://github.com/lavishlaiii3/engineering-3/assets/143545115/b456129c-fed3-4a16-83f4-40b944983c5e)
@@ -204,4 +204,22 @@ For this assignment we were getting comofortable using dimesons and using the la
 https://cvilleschools.onshape.com/documents/dda6d6d0e8e82c1ed3f6dfcc/w/8f824fb39a93bdf344b566c0/e/04694da48d226dd21f72e0cf?renderMode=0&uiState=653959c3155aa40d03e3be7d
 ### Reflection
 
-This assignment was difficult because I didn't know where to start. But getting help from Mr. miller ended up doing each section separately and actually using the instructions. This made me feel more confident in onshape because it was something out of a comfort zone. 
+This assignment was difficult because I didn't know where to start. But getting help from Mr. Miller ended up doing each section separately and actually using the instructions. This made me feel more confident in onshape because it was something out of a comfort zone. 
+
+
+
+
+## Multipart Design Practice
+
+### Assignment Description
+
+![Capture](https://github.com/lavishlaiii3/engineering-3/assets/143545115/8b9976f7-21c0-40ce-b2f6-0d393ae655b1)
+### Evidence
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/1758d87f13dd7ef54ab7d170/w/29867918370809955f7674fe/e/a0d6977bb59d3b3c4eb5a3c6![Capture2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/7e83571b-7e38-40b5-9a3e-3f82fe69ba68)
+
+
+### Reflection
+
+
