@@ -212,9 +212,10 @@ This assignment was difficult because I didn't know where to start. But getting 
 ## Multipart Design Practice
 
 ### Assignment Description
-
-![Capture](https://github.com/lavishlaiii3/engineering-3/assets/143545115/8b9976f7-21c0-40ce-b2f6-0d393ae655b1)
 ### Evidence
+![Capture](https://github.com/lavishlaiii3/engineering-3/assets/143545115/8b9976f7-21c0-40ce-b2f6-0d393ae655b1)
+![Capture2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/6b0b9187-550f-4aac-8127-474c49f6fc7f)
+
 
 ### Part Link 
 https://cvilleschools.onshape.com/documents/1758d87f13dd7ef54ab7d170/w/29867918370809955f7674fe/e/a0d6977bb59d3b3c4eb5a3c6![Capture2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/7e83571b-7e38-40b5-9a3e-3f82fe69ba68)
