@@ -227,6 +227,43 @@ For this assignment, we had to use  drawings to help us create a multi-part cyli
 https://cvilleschools.onshape.com/documents/1758d87f13dd7ef54ab7d170/w/29867918370809955f7674fe/e/a0d6977bb59d3b3c4eb5a3c6![Capture2](https://github.com/lavishlaiii3/engineering-3/assets/143545115/7e83571b-7e38-40b5-9a3e-3f82fe69ba68)
 
 
+
+
+
+## Photointerrupters 
+### Description & Code Snippets
+For this assignment, I had to wire lcd backpack and a Photo interrupters. The goal was to code a lcd backpack to see how many times it's been interrupted.
+
+```python
+import board
+import analog
+
+motor=analogio.AnalogOut(board.A0)
+pot=analogio.AnalogIn(board.A1)
+while True:
+    speed=pot.value
+    motor.value=speed
+
+```
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+
+
+
+### Wiring
+
+
+![WIN_20230926_15_31_36_Pro](https://github.com/lavishlaiii3/engineering-3/assets/143545115/35f29aea-3d34-4458-bfe0-478893cd179f)
+
 ### Reflection
-This assignment wasn't that bad I struggled a lot with adding the tube in between the cylinders but Mr. Miller helped and showed me how to use section view. Making the top and bottom cap was pretty simple the directions were clear and I'm familiar with the tools we needed to make the cap. It also gave me a insight into how the engineering test is going to be. 
+ 
+
+
+
+
+
+
 
