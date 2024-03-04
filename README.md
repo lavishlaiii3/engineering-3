@@ -31,6 +31,7 @@ while True:
 ### Evidence
 ![WIN_20230926_14_32_28_Pro](https://github.com/lavishlaiii3/engineering-3/assets/143545115/8339bf38-414c-42e2-92a4-2ce4e4e31e71)
 
+This assignment on Canvas was pretty self-explanatory. I just forgot how to wire my Potentiometer. To solve this problem I looked at my old notebook from last year. For wiring, I also got confused with multiple wires having to go to the same pin so I used my shield.
 
 
 ### Wiring
@@ -38,8 +39,6 @@ while True:
 
 ![WIN_20230926_15_31_36_Pro](https://github.com/lavishlaiii3/engineering-3/assets/143545115/35f29aea-3d34-4458-bfe0-478893cd179f)
 
-### Reflection
-This assignment on Canvas was pretty self-explanatory. I just forgot how to wire my Potentiometer. To solve this problem I looked at my old notebook from last year. For wiring, I also got confused with multiple wires having to go to the same pin so I created multiply 5v and gnd.
 
 
 
@@ -232,7 +231,7 @@ https://cvilleschools.onshape.com/documents/1758d87f13dd7ef54ab7d170/w/298679183
 
 ## Photointerrupters 
 ### Description & Code Snippets
-For this assignment, I had to wire lcd backpack and a Photo interrupters. The goal was to code a lcd backpack to see how many times it's been interrupted.
+For this assignment, I had to wire lcd backpack and a Photo interrupter. The goal was to code an lcd backpack to see how many times it's been interrupted.
 
 ```python
 import board
@@ -261,6 +260,7 @@ while True:
 
 ### Reflection
  
+This assignment on Canvas was pretty self-explanatory. I just forgot how to wire my Potentiometer. To solve this problem I looked at my old notebook from last year. For wiring, I also got confused with multiple wires having to go to the same pin so I used my shield thing and placed all the wires that needed to go to 5v there. 
 
 
 
