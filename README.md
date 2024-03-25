@@ -260,7 +260,7 @@ while True:
 
 ### Reflection
  
-This assignment on Canvas was pretty self-explanatory. I just forgot how to wire my Potentiometer. To solve this problem I looked at my old notebook from last year. For wiring, I also got confused with multiple wires having to go to the same pin so I used my shield thing and placed all the wires that needed to go to 5v there. 
+This assignment on Canvas was pretty self-explanatory. I just forgot how to wire my Photointerrupters. To solve this problem I looked at my old notebook from last year. For wiring, I also got confused with multiple wires having to go to the same pin so I used my shield thing and placed all the wires that needed to go to 5v there. 
 
 
 
